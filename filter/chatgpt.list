@@ -1,0 +1,52 @@
+# NAME: ChatGPT / OpenAI
+# AUTHOR: QX Config Master
+# UPDATED: 2026-05-29
+# SOURCE: OpenAI Help Center network recommendations
+# USAGE: [filter_remote] 中建议使用 force-policy=ChatGPT 或 force-policy=Proxy
+
+# OpenAI / ChatGPT core
+HOST-SUFFIX,openai.com
+HOST-SUFFIX,chatgpt.com
+HOST-SUFFIX,oaistatic.com
+HOST-SUFFIX,oaiusercontent.com
+HOST-SUFFIX,auth.openai.com
+
+# ChatGPT apps / websocket endpoints
+HOST,chat.openai.com
+HOST,ios.chat.openai.com
+HOST,android.chat.openai.com
+HOST,desktop.chat.openai.com
+HOST,tcr9i.chat.openai.com
+HOST,ws.chatgpt.com
+
+# Authentication / workspace login dependencies
+HOST,auth0.openai.com
+HOST,setup.auth.openai.com
+HOST,cdn.workos.com
+HOST,forwarder.workos.com
+HOST,setup.workos.com
+HOST,images.workoscdn.com
+HOST,workos.imgix.net
+
+# Feature flags / telemetry required by ChatGPT web and apps
+HOST-SUFFIX,featuregates.org
+HOST,featureassets.org
+HOST-SUFFIX,statsig.com
+HOST,statsigapi.net
+HOST,events.statsigapi.net
+HOST,rum.browser-intake-datadoghq.com
+HOST,o207216.ingest.sentry.io
+HOST,o33249.ingest.sentry.io
+
+# Support, email, payment, CDN and verification dependencies
+HOST-SUFFIX,intercom.io
+HOST-SUFFIX,intercomcdn.com
+HOST-SUFFIX,ct.sendgrid.net
+HOST,js.intercomcdn.com
+HOST,js.stripe.com
+HOST,challenges.cloudflare.com
+HOST,cdn.openaimerge.com
+HOST,prodregistryv2.org
+
+# iOS/macOS app attestation dependency
+HOST,humb.apple.com
