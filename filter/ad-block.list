@@ -3,7 +3,7 @@
 # Update: 2026-05-29
 # Compatible: Quantumult X 1.4.0+
 
-# ==================== Ad Services ====================
+# ==================== Ad Services ===================
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,googleadservices.com
 DOMAIN-SUFFIX,googlesyndication.com
