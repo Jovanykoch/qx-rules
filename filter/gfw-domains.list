@@ -5,12 +5,8 @@
 # Update: 2026-05-29
 
 # ==================== Social Media ====================
-HOST-SUFFIX,facebook.com
 HOST-SUFFIX,twitter.com
 HOST-SUFFIX,x.com
-HOST-SUFFIX,instagram.com
-HOST-SUFFIX,telegram.org
-HOST-SUFFIX,t.me
 HOST-SUFFIX,reddit.com
 HOST-SUFFIX,discord.com
 
@@ -23,13 +19,6 @@ HOST-SUFFIX,npmjs.com
 HOST-SUFFIX,pypi.org
 HOST-SUFFIX,docker.com
 HOST-SUFFIX,docker.io
-
-# ==================== AI & LLM ====================
-HOST-SUFFIX,openai.com
-HOST-SUFFIX,chatgpt.com
-HOST-SUFFIX,anthropic.com
-HOST-SUFFIX,huggingface.co
-HOST-SUFFIX,midjourney.com
 
 # ==================== Video Streaming ====================
 HOST-SUFFIX,youtube.com
