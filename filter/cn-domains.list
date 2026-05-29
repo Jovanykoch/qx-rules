@@ -2,74 +2,76 @@
 # Purpose: Direct connection for China-based services
 # Update: 2026-05-29
 # Compatible: Quantumult X 1.4.0+
+# China Direct Rules
+# Update: 2026-05-29
 
 # ==================== Search Engines ====================
-DOMAIN-SUFFIX,baidu.com
-DOMAIN-SUFFIX,so.com
-DOMAIN-SUFFIX,sogou.com
-DOMAIN-SUFFIX,360.com
-DOMAIN-SUFFIX,zhihu.com
+HOST-SUFFIX,baidu.com
+HOST-SUFFIX,so.com
+HOST-SUFFIX,sogou.com
+HOST-SUFFIX,360.com
+HOST-SUFFIX,zhihu.com
 
 # ==================== Video Streaming ====================
-DOMAIN-SUFFIX,youku.com
-DOMAIN-SUFFIX,iqiyi.com
-DOMAIN-SUFFIX,bilibili.com
-DOMAIN-SUFFIX,bilibili.tv
-DOMAIN-SUFFIX,biliimg.com
-DOMAIN-SUFFIX,bilivideo.com
-DOMAIN-SUFFIX,acgvideo.com
-DOMAIN-SUFFIX,qq.com
-DOMAIN-SUFFIX,tencent.com
+HOST-SUFFIX,youku.com
+HOST-SUFFIX,iqiyi.com
+HOST-SUFFIX,bilibili.com
+HOST-SUFFIX,bilibili.tv
+HOST-SUFFIX,biliimg.com
+HOST-SUFFIX,bilivideo.com
+HOST-SUFFIX,acgvideo.com
+HOST-SUFFIX,qq.com
+HOST-SUFFIX,tencent.com
 
 # ==================== Music Services ====================
-DOMAIN-SUFFIX,netease.com
-DOMAIN-SUFFIX,163.com
-DOMAIN-SUFFIX,kugou.com
-DOMAIN-SUFFIX,kuwo.cn
-DOMAIN-SUFFIX,qmusic.tc.qq.com
+HOST-SUFFIX,netease.com
+HOST-SUFFIX,163.com
+HOST-SUFFIX,kugou.com
+HOST-SUFFIX,kuwo.cn
+HOST-SUFFIX,qmusic.tc.qq.com
 
 # ==================== E-commerce ====================
-DOMAIN-SUFFIX,taobao.com
-DOMAIN-SUFFIX,alibaba.com
-DOMAIN-SUFFIX,alipay.com
-DOMAIN-SUFFIX,jd.com
-DOMAIN-SUFFIX,suning.com
-DOMAIN-SUFFIX,pinduoduo.com
-DOMAIN-SUFFIX,meituan.com
-DOMAIN-SUFFIX,dianping.com
-DOMAIN-SUFFIX,ele.me
+HOST-SUFFIX,taobao.com
+HOST-SUFFIX,alibaba.com
+HOST-SUFFIX,alipay.com
+HOST-SUFFIX,jd.com
+HOST-SUFFIX,suning.com
+HOST-SUFFIX,pinduoduo.com
+HOST-SUFFIX,meituan.com
+HOST-SUFFIX,dianping.com
+HOST-SUFFIX,ele.me
 
 # ==================== Social & Messaging ====================
-DOMAIN-SUFFIX,wechat.com
-DOMAIN-SUFFIX,weixin.com
-DOMAIN-SUFFIX,douyin.com
-DOMAIN-SUFFIX,bytedance.com
-DOMAIN-SUFFIX,kuaishou.com
-DOMAIN-SUFFIX,xiaohongshu.com
+HOST-SUFFIX,wechat.com
+HOST-SUFFIX,weixin.com
+HOST-SUFFIX,douyin.com
+HOST-SUFFIX,bytedance.com
+HOST-SUFFIX,kuaishou.com
+HOST-SUFFIX,xiaohongshu.com
 
 # ==================== Finance ====================
-DOMAIN-SUFFIX,chinabank.com.cn
-DOMAIN-SUFFIX,icbc.com.cn
-DOMAIN-SUFFIX,bocomm.com.cn
-DOMAIN-SUFFIX,ccb.com.cn
-DOMAIN-SUFFIX,sina.com.cn
+HOST-SUFFIX,chinabank.com.cn
+HOST-SUFFIX,icbc.com.cn
+HOST-SUFFIX,bocomm.com.cn
+HOST-SUFFIX,ccb.com.cn
+HOST-SUFFIX,sina.com.cn
 
 # ==================== CDN & ISP ====================
-DOMAIN-SUFFIX,aliyun.com
-DOMAIN-SUFFIX,alicdn.com
-DOMAIN-SUFFIX,qiniu.com
-DOMAIN-SUFFIX,qiniudn.com
-DOMAIN-SUFFIX,chinacache.com
+HOST-SUFFIX,aliyun.com
+HOST-SUFFIX,alicdn.com
+HOST-SUFFIX,qiniu.com
+HOST-SUFFIX,qiniudn.com
+HOST-SUFFIX,chinacache.com
 
 # ==================== Government & Education ====================
-DOMAIN-SUFFIX,gov.cn
-DOMAIN-SUFFIX,edu.cn
-DOMAIN-SUFFIX,ac.cn
+HOST-SUFFIX,gov.cn
+HOST-SUFFIX,edu.cn
+HOST-SUFFIX,ac.cn
 
 # ==================== Other Services ====================
-DOMAIN-SUFFIX,ctrip.com
-DOMAIN-SUFFIX,fliggy.com
-DOMAIN-SUFFIX,booking.com
-DOMAIN-SUFFIX,expedia.com
-DOMAIN-SUFFIX,xiaomi.com
-DOMAIN-SUFFIX,huawei.com
+HOST-SUFFIX,ctrip.com
+HOST-SUFFIX,fliggy.com
+HOST-SUFFIX,booking.com
+HOST-SUFFIX,expedia.com
+HOST-SUFFIX,xiaomi.com
+HOST-SUFFIX,huawei.com
