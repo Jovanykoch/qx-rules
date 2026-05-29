@@ -10,7 +10,7 @@ DOMAIN-SUFFIX,googlesyndication.com
 DOMAIN-SUFFIX,adservice.google.com
 DOMAIN-SUFFIX,ads.google.com
 
-# ==================== Tracking Services ====================
+# ==================== Tracking Services ===================
 DOMAIN-SUFFIX,analytics.google.com
 DOMAIN-SUFFIX,google-analytics.com
 DOMAIN-SUFFIX,bat.bing.com
