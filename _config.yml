@@ -1,0 +1,12 @@
+# GitHub Pages 配置
+title: Quantumult X Rules
+description: CN Direct + GFW Proxy Rules
+
+# 使用原始文件格式（不解析 Markdown）
+include: [".list"]
+
+# 静态文件直接输出
+keep_files: ["cn-domains.list", "gfw-domains.list"]
+
+# 禁用 Jekyll 处理（加速）
+plugins: []
