@@ -1,0 +1,70 @@
+# Quantumult X - GFW Blocked Rules
+# Purpose: Proxy for blocked international services
+# Update: 2026-05-29
+# Compatible: Quantumult X 1.4.0+
+
+# ==================== Social Media ====================
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,discord.com
+
+# ==================== Developer Tools ====================
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,gitlab.com
+DOMAIN-SUFFIX,stackoverflow.com
+DOMAIN-SUFFIX,npmjs.com
+DOMAIN-SUFFIX,pypi.org
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,docker.io
+
+# ==================== AI & LLM ====================
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,midjourney.com
+
+# ==================== Video Streaming ====================
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,vimeo.com
+DOMAIN-SUFFIX,dailymotion.com
+DOMAIN-SUFFIX,twitch.tv
+DOMAIN-SUFFIX,netflix.com
+DOMAIN-SUFFIX,hulu.com
+
+# ==================== Cloud Services ====================
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,azure.microsoft.com
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,dropbox.com
+
+# ==================== News & Media ====================
+DOMAIN-SUFFIX,bbc.com
+DOMAIN-SUFFIX,cnn.com
+DOMAIN-SUFFIX,nytimes.com
+DOMAIN-SUFFIX,aljazeera.com
+DOMAIN-SUFFIX,reuters.com
+DOMAIN-SUFFIX,bloomberg.com
+
+# ==================== VPN & Proxy Tools ====================
+DOMAIN-SUFFIX,expressvpn.com
+DOMAIN-SUFFIX,nordvpn.com
+DOMAIN-SUFFIX,mullvad.net
+
+# ==================== Other International Services ====================
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,medium.com
+DOMAIN-SUFFIX,substack.com
+DOMAIN-SUFFIX,patreon.com
+DOMAIN-SUFFIX,notion.so
