@@ -3,20 +3,20 @@
 # Update: 2026-05-29
 # Compatible: Quantumult X 1.4.0+
 
-# ==================== Ad Services ===================
-DOMAIN-SUFFIX,doubleclick.net
-DOMAIN-SUFFIX,googleadservices.com
-DOMAIN-SUFFIX,googlesyndication.com
-DOMAIN-SUFFIX,adservice.google.com
-DOMAIN-SUFFIX,ads.google.com
+# ==================== Ad Services ====================
+HOST-SUFFIX,doubleclick.net
+HOST-SUFFIX,googleadservices.com
+HOST-SUFFIX,googlesyndication.com
+HOST-SUFFIX,adservice.google.com
+HOST-SUFFIX,ads.google.com
 
-# ==================== Tracking Services ===================
-DOMAIN-SUFFIX,analytics.google.com
-DOMAIN-SUFFIX,google-analytics.com
-DOMAIN-SUFFIX,bat.bing.com
-DOMAIN-SUFFIX,quantserve.com
+# ==================== Tracking Services ====================
+HOST-SUFFIX,analytics.google.com
+HOST-SUFFIX,google-analytics.com
+HOST-SUFFIX,bat.bing.com
+HOST-SUFFIX,quantserve.com
 
 # ==================== Chinese Ads ====================
-DOMAIN-SUFFIX,ad.cmma.baidu.com
-DOMAIN-SUFFIX,api.tiqcdn.com
-DOMAIN-SUFFIX,adash.m.taobao.com
+HOST-SUFFIX,ad.cmma.baidu.com
+HOST-SUFFIX,api.tiqcdn.com
+HOST-SUFFIX,adash.m.taobao.com
