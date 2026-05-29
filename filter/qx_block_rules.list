@@ -1,0 +1,165 @@
+# NAME: Converted Block Rules for Quantumult-X
+# AUTHOR: QX Config Master
+# UPDATED: 2026-05-29
+# FORMAT: Quantumult-X filter_remote list
+# NOTE: 建议在 [filter_remote] 中使用 force-policy=reject
+
+# PCDN
+HOST-KEYWORD,2pcdn.
+HOST-KEYWORD,bsccdn
+HOST-KEYWORD,-hcdn.
+#HOST-KEYWORD,mcdn
+HOST-KEYWORD,p2p-
+HOST-KEYWORD,p2p.
+HOST-KEYWORD,p2pchunk-
+HOST-KEYWORD,p2perrorlog.
+HOST-KEYWORD,p2plive
+HOST-KEYWORD,p2plive-
+HOST-KEYWORD,p2plog
+HOST-KEYWORD,p2plog.
+HOST-KEYWORD,p2ptun.
+HOST-KEYWORD,p2pupdate.
+HOST-KEYWORD,p2pupgrade.
+HOST-KEYWORD,p2pvod-
+#HOST-KEYWORD,pcdn
+HOST-KEYWORD,-pcdn
+HOST-KEYWORD,pcdn.xmcdn.
+HOST-KEYWORD,xycdn.
+HOST-KEYWORD,yfcdn.
+HOST-KEYWORD,yfp2p.
+
+# HTTPDNS
+HOST-KEYWORD,httpsdns
+HOST-KEYWORD,https-dns
+HOST-KEYWORD,https.dns
+HOST-KEYWORD,httpdns
+HOST-KEYWORD,http-dns
+HOST-KEYWORD,http.dns
+HOST-KEYWORD,cdndns
+HOST-KEYWORD,cdn-dns
+HOST-KEYWORD,cdn.dns
+HOST-KEYWORD,dnscdn
+HOST-KEYWORD,dns-cdn
+HOST-KEYWORD,dns.cdn
+HOST-KEYWORD,apidns
+HOST-KEYWORD,api-dns
+HOST-KEYWORD,api.dns
+HOST-KEYWORD,dnsapi
+HOST-KEYWORD,dns-api
+HOST-KEYWORD,dns.api
+HOST-KEYWORD,dns.weixin
+
+# OpenAI 跟踪
+HOST-SUFFIX,o33249.ingest.sentry.io
+HOST-SUFFIX,openaicom.imgix.net
+
+# 番茄小说
+HOST-SUFFIX,p6-ad-sign.byteimg.com
+HOST-SUFFIX,p9-ad-sign.byteimg.com
+HOST-SUFFIX,i.snssdk.com
+HOST-SUFFIX,i-lq.snssdk.com
+HOST-SUFFIX,dig.bdurl.net
+#HOST-SUFFIX,zijieapi.com
+HOST-SUFFIX,activity-ag.awemeughun.com
+HOST-SUFFIX,tnc3-alisc1.snssdk.com
+HOST-SUFFIX,security-lq.snssdk.com
+HOST-SUFFIX,tnc3-aliec2.snssdk.com
+HOST-SUFFIX,msync-im1-vip6-std.easemob.com
+HOST-SUFFIX,api.iegadp.qq.com
+HOST-SUFFIX,default.ixigua.com
+HOST-SUFFIX,v6-novelapp.ixigua.com
+HOST-SUFFIX,novelapp.ixigua.com
+HOST-SUFFIX,byteorge.com
+HOST-SUFFIX,bytegoofy.com
+HOST-SUFFIX,bytedance.com
+
+# IP规则
+IP-CIDR,49.71.37.101/32
+IP-CIDR,117.71.105.23/32
+IP-CIDR,218.94.207.205/32
+IP-CIDR,117.92.229.188/32
+IP-CIDR,101.36.166.16/32
+IP-CIDR,180.96.2.114/32
+
+# 其他
+HOST-SUFFIX,evtubescms.phncdn.com
+HOST-SUFFIX,deprecated.bitpix.top
+HOST-KEYWORD,better365
+HOST-SUFFIX,e.qq.com
+HOST-SUFFIX,gdt.qq.com
+
+# QQ浏览器小说底下
+HOST-SUFFIX,kde.qq.com
+HOST-SUFFIX,report.nfa.qq.com
+HOST-SUFFIX,sdkapiv2.bizport.cn
+
+# 补充
+HOST-SUFFIX,dig.zjurl.cn
+HOST,msmp.abchina.com.cn
+
+# 分析行为
+HOST-KEYWORD,.log.
+HOST-KEYWORD,app-analytics
+HOST-KEYWORD,analytics.
+HOST-KEYWORD,monitor
+HOST-KEYWORD,pclog.
+HOST-KEYWORD,applog.
+HOST-KEYWORD,ioslog.
+HOST-KEYWORD,pc-log.
+HOST-KEYWORD,app-log.
+HOST-KEYWORD,ios-log.
+
+HOST-KEYWORD,.ad.
+HOST-KEYWORD,.ad-
+HOST-KEYWORD,-ad.
+HOST-KEYWORD,.ads.
+HOST-KEYWORD,.ads-
+HOST-KEYWORD,-ads.
+
+# 阿里
+HOST-KEYWORD,guide-acs.taobao.com
+HOST-KEYWORD,amdc.m.taobao.com
+
+# 百度统计
+HOST-SUFFIX,fclog.baidu.com
+HOST-SUFFIX,hm.baidu.com
+
+# 百度
+HOST-SUFFIX,hector.baidu.com
+HOST-SUFFIX,hectorstatic.baidu.com
+HOST-SUFFIX,tcbox.baidu.com
+HOST-SUFFIX,bgg.baidu.com
+
+# 知乎
+IP-CIDR,118.89.204.198/23
+
+# 国家反诈中心（中国）
+HOST-KEYWORD,gjfzpt
+HOST-KEYWORD,chanct
+HOST-KEYWORD,ifcert.cn
+IP-CIDR,157.148.47.204/32
+IP-CIDR,219.143.187.136/32
+
+# 反诈相关
+HOST-KEYWORD,fzlm
+HOST-KEYWORD,fqzpt
+HOST-SUFFIX,fanzha.org.cn
+HOST-SUFFIX,hicore-auth.com
+HOST-SUFFIX,hei-tong.com
+
+# 中国政府相关域名
+HOST-SUFFIX,loongteam.com
+HOST-SUFFIX,cert.org.cn
+HOST-SUFFIX,ifcert.cn
+HOST-SUFFIX,ifcert.com
+HOST-SUFFIX,ifcert.org.cn
+#HOST-SUFFIX,cnvd.org.cn
+HOST-SUFFIX,anva.org.cn
+HOST-SUFFIX,ics-cert.org.cn
+HOST-SUFFIX,certlab.org
+HOST-SUFFIX,china-bestmind.com
+HOST-SUFFIX,i-bestmind.com
+HOST-SUFFIX,t-bestmind.com
+HOST-SUFFIX,himindtech.com
+HOST-SUFFIX,fhss.com.cn
+HOST-SUFFIX,hailiangyun.cn
