@@ -1,0 +1,35 @@
+# US Education Domains
+# Purpose: Direct connection for US education platforms
+# Update: 2026-05-29
+# Compatible: Quantumult X 1.4.0+
+
+# ==================== Education TLD ====================
+HOST-SUFFIX,edu
+
+# ==================== Specific US Universities ====================
+HOST-SUFFIX,csun.edu
+HOST-SUFFIX,jjc.edu
+HOST-SUFFIX,spokane.edu
+
+# ==================== Microsoft Services ====================
+HOST,office.com
+HOST,office365.com
+HOST,microsoft365.com
+HOST,outlook.com
+HOST,teams.microsoft.com
+HOST-SUFFIX,microsoftonline.com
+HOST-SUFFIX,microsoftonline-p.com
+HOST-SUFFIX,msauth.net
+HOST-SUFFIX,msauthimages.net
+HOST-SUFFIX,msftauth.net
+HOST-SUFFIX,msftauthimages.net
+
+# ==================== Learning Management Systems ====================
+HOST-SUFFIX,instructure.com
+HOST-SUFFIX,canvaslms.com
+HOST-SUFFIX,blackboard.com
+HOST-SUFFIX,turnitin.com
+
+# ==================== Online Education Platforms ====================
+HOST-SUFFIX,coursera.org
+HOST-SUFFIX,edx.org
