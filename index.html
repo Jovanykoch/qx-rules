@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quantumult X Rules</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0b0f14;
+      --card: #131a22;
+      --text: #e6edf3;
+      --muted: #9aa7b5;
+      --accent: #4da3ff;
+      --border: #253142;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 20px 14px 40px;
+    }
+    h1 {
+      margin: 8px 0 6px;
+      font-size: 1.8rem;
+    }
+    p {
+      margin: 0 0 20px;
+      color: var(--muted);
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px;
+      margin: 0 0 12px;
+    }
+    h2 {
+      margin: 0 0 10px;
+      font-size: 1.05rem;
+    }
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    li + li { margin-top: 8px; }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      word-break: break-all;
+    }
+    a:hover { text-decoration: underline; }
+    .hint { color: var(--muted); font-size: 0.92rem; }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1>Quantumult X Rules</h1>
+    <p>Rule resources and repository links for quick access.</p>
+
+    <section class="card">
+      <h2>Rule Resources</h2>
+      <ul>
+        <li><a href="./filter/cn-domains.list">cn-domains.list</a></li>
+        <li><a href="./filter/gfw-domains.list">gfw-domains.list</a></li>
+        <li><a href="./filter/ad-block.list">ad-block.list</a></li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Repository Links</h2>
+      <ul>
+        <li><a href="https://github.com/Jovanykoch/qx-rules">GitHub Repository</a></li>
+        <li><a href="https://github.com/Jovanykoch/qx-rules/blob/main/README.md">README</a></li>
+        <li><a href="https://github.com/Jovanykoch/qx-rules/tree/main/filter">Filter Directory</a></li>
+      </ul>
+      <p class="hint">Tip: Use these rule URLs directly in your Quantumult X remote filter configuration.</p>
+    </section>
+  </main>
+</body>
+</html>
