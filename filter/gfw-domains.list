@@ -58,3 +58,5 @@ HOST-SUFFIX,medium.com
 HOST-SUFFIX,substack.com
 HOST-SUFFIX,patreon.com
 HOST-SUFFIX,notion.so
+
+HOST-KEYWORD,spotify
