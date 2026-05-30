@@ -2,7 +2,7 @@
 # AUTHOR: QX Config Master
 # UPDATED: 2026-05-29
 # SOURCE: OpenAI Help Center network recommendations
-# USAGE: [filter_remote] 中建议使用 force-policy=ChatGPT 或 force-policy=Proxy
+# USAGE: [filter_remote] force-policy=ChatGPT or force-policy=Proxy
 
 # OpenAI / ChatGPT core
 HOST-SUFFIX,openai.com
