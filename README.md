@@ -1,4 +1,4 @@
-# qx-rules
+# qx-rules 🇺🇸
 Quantumult X Rules for CN &amp; GFW
 # Quantumult X Rules
 
