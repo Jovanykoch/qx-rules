@@ -1,0 +1,77 @@
+# Tencent Video
+HOST-SUFFIX,v.qq.com
+HOST-SUFFIX,video.qq.com
+HOST-SUFFIX,qqvideo.tc.qq.com
+
+# iQIYI
+HOST-SUFFIX,iqiyi.com
+HOST-SUFFIX,iq.com
+HOST-SUFFIX,qiyi.com
+HOST-SUFFIX,71.am
+
+# Youku
+HOST-SUFFIX,youku.com
+HOST-SUFFIX,ykimg.com
+
+# Mango TV
+HOST-SUFFIX,mgtv.com
+HOST-SUFFIX,mgtvcloud.com
+HOST-SUFFIX,hunantv.com
+
+# Bilibili
+HOST-SUFFIX,bilibili.com
+HOST-SUFFIX,bilivideo.com
+HOST-SUFFIX,biliapi.net
+HOST-SUFFIX,biliintl.com
+
+# Migu Video
+HOST-SUFFIX,miguvideo.com
+HOST-SUFFIX,migu.cn
+
+# CCTV
+HOST-SUFFIX,cctv.com
+HOST-SUFFIX,cntv.cn
+
+# PPS
+HOST-SUFFIX,pps.tv
+HOST-SUFFIX,ppstream.com
+
+# Sohu Video
+HOST-SUFFIX,tv.sohu.com
+HOST-SUFFIX,sohu.com
+
+# LeTV
+HOST-SUFFIX,le.com
+HOST-SUFFIX,letv.com
+
+# Xigua Video
+HOST-SUFFIX,ixigua.com
+HOST-SUFFIX,snssdk.com
+
+# Douyin
+HOST-SUFFIX,douyin.com
+HOST-SUFFIX,douyinvod.com
+HOST-SUFFIX,amemv.com
+HOST-SUFFIX,pstatp.com
+
+# NetEase Music
+HOST-SUFFIX,music.163.com
+HOST-SUFFIX,126.net
+HOST-SUFFIX,163yun.com
+
+# QQ Music
+HOST-SUFFIX,y.qq.com
+HOST-SUFFIX,qqmusic.qq.com
+HOST-SUFFIX,music.tc.qq.com
+
+# Kugou Music
+HOST-SUFFIX,kugou.com
+
+# Kuwo Music
+HOST-SUFFIX,kuwo.cn
+
+# Ximalaya
+HOST-SUFFIX,ximalaya.com
+
+# Qingting FM
+HOST-SUFFIX,qtfm.cn
