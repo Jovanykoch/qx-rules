@@ -1,6 +1,6 @@
 # CSUN / School Email + Microsoft 365 SSO Stable
 # Quantumult X Rule Set
-# 建议绑定到固定美国节点，例如 US-SFO-01 / US-LAX-01
+# It is recommended to bind to a fixed US node, such as US-SFO-01 / US-LAX-01
 
 # School domains
 host-suffix,csun.edu
