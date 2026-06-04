@@ -1,0 +1,87 @@
+# NAME: ChatGPT / OpenAI
+# AUTHOR: zl self-use / QX Config Master
+# UPDATED: 2026-06-04
+# SOURCE: OpenAI Help Center network recommendations + self-use tuning
+# USAGE: [filter_remote] force-policy=ChatGPT or force-policy=Proxy
+# FORMAT: Quantumult X HOST / HOST-SUFFIX
+# NOTE: Keep this list focused on ChatGPT / OpenAI only.
+
+# ============================================================
+# > OpenAI / ChatGPT Core
+# ============================================================
+
+HOST-SUFFIX,openai.com
+HOST-SUFFIX,chatgpt.com
+HOST-SUFFIX,oaistatic.com
+HOST-SUFFIX,oaiusercontent.com
+
+# Optional explicit auth domain. Covered by openai.com, kept for readability.
+HOST-SUFFIX,auth.openai.com
+
+
+# ============================================================
+# > ChatGPT Apps / WebSocket
+# ============================================================
+
+HOST,chat.openai.com
+HOST,ios.chat.openai.com
+HOST,android.chat.openai.com
+HOST,desktop.chat.openai.com
+HOST,tcr9i.chat.openai.com
+HOST,ws.chatgpt.com
+
+
+# ============================================================
+# > Authentication / Workspace Login Dependencies
+# ============================================================
+
+HOST,auth0.openai.com
+HOST,setup.auth.openai.com
+
+HOST,cdn.workos.com
+HOST,forwarder.workos.com
+HOST,setup.workos.com
+HOST-SUFFIX,workoscdn.com
+HOST,workos.imgix.net
+
+
+# ============================================================
+# > Feature Flags / Telemetry
+# ============================================================
+
+HOST-SUFFIX,featuregates.org
+HOST-SUFFIX,featureassets.org
+
+HOST-SUFFIX,statsig.com
+HOST-SUFFIX,statsigapi.net
+
+HOST,rum.browser-intake-datadoghq.com
+HOST,o207216.ingest.sentry.io
+HOST,o33249.ingest.sentry.io
+
+
+# ============================================================
+# > Support / Payment / Verification Dependencies
+# NOTE: These are shared third-party dependencies. Keep only if your
+#       ChatGPT policy uses the same safe region as your normal Proxy.
+# ============================================================
+
+HOST-SUFFIX,intercom.io
+HOST-SUFFIX,intercomcdn.com
+
+HOST-SUFFIX,ct.sendgrid.net
+
+HOST,js.stripe.com
+HOST,challenges.cloudflare.com
+
+HOST,cdn.openaimerge.com
+HOST,prodregistryv2.org
+
+
+# ============================================================
+# > Optional: iOS / macOS App Attestation
+# NOTE: Apple shared dependency. Prefer putting this in apple.list.
+#       Keep here only if ChatGPT app login/verification fails without it.
+# ============================================================
+
+# HOST,humb.apple.com
