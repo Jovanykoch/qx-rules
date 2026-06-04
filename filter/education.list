@@ -1,35 +1,575 @@
-# US Education Domains
-# Purpose: Direct connection for US education platforms
-# Update: 2026-05-29
-# Compatible: Quantumult X 1.4.0+
+# NAME: US Education
+# AUTHOR: zl self-use / QX Config Master
+# UPDATED: 2026-06-04
+# PURPOSE: Direct connection for US education, LMS, campus login, library, research, exams and classroom services
+# COMPATIBLE: Quantumult X 1.4.0+
+# FORMAT: HOST / HOST-SUFFIX / HOST-KEYWORD
+# USAGE: [filter_remote] force-policy=Direct or force-policy=Education
+# NOTE: Designed for school stability. Keep this list above general proxy / reject rules.
 
-# ==================== Education TLD ====================
+# ============================================================
+# > Education TLD
+# ============================================================
+
 HOST-SUFFIX,edu
 
-# ==================== Specific US Universities ====================
+
+# ============================================================
+# > Personal / School Priority
+# ============================================================
+
+# California State University, Northridge
 HOST-SUFFIX,csun.edu
+HOST,canvas.csun.edu
+HOST,csun.zoom.us
+
+# Joliet Junior College
 HOST-SUFFIX,jjc.edu
+
+# Community Colleges of Spokane
 HOST-SUFFIX,spokane.edu
 
-# ==================== Microsoft Services ====================
-HOST,office.com
-HOST,office365.com
-HOST,microsoft365.com
-HOST,outlook.com
-HOST,teams.microsoft.com
+
+# ============================================================
+# > California State University / CSU System
+# ============================================================
+
+HOST-SUFFIX,calstate.edu
+HOST-SUFFIX,calstateonline.net
+HOST-SUFFIX,calstate.edu.cn
+
+# CSU campuses commonly used across services
+HOST-SUFFIX,calpoly.edu
+HOST-SUFFIX,calstatela.edu
+HOST-SUFFIX,csuci.edu
+HOST-SUFFIX,csuchico.edu
+HOST-SUFFIX,csudh.edu
+HOST-SUFFIX,csueastbay.edu
+HOST-SUFFIX,csufresno.edu
+HOST-SUFFIX,fullerton.edu
+HOST-SUFFIX,csulb.edu
+HOST-SUFFIX,csumb.edu
+HOST-SUFFIX,csus.edu
+HOST-SUFFIX,csusb.edu
+HOST-SUFFIX,csusm.edu
+HOST-SUFFIX,sonoma.edu
+HOST-SUFFIX,sfsu.edu
+HOST-SUFFIX,sjsu.edu
+HOST-SUFFIX,humboldt.edu
+HOST-SUFFIX,cpp.edu
+HOST-SUFFIX,csustan.edu
+HOST-SUFFIX,csusm.edu
+
+
+# ============================================================
+# > Campus SSO / Identity / MFA
+# ============================================================
+
+HOST-SUFFIX,okta.com
+HOST-SUFFIX,okta-emea.com
+HOST-SUFFIX,oktacdn.com
+HOST-SUFFIX,oktapreview.com
+HOST-SUFFIX,onelogin.com
+HOST-SUFFIX,onelogin.com.au
+HOST-SUFFIX,duosecurity.com
+HOST-SUFFIX,duo.com
+HOST-SUFFIX,authy.com
+HOST-SUFFIX,pingidentity.com
+HOST-SUFFIX,pingone.com
+HOST-SUFFIX,shibboleth.net
+HOST-SUFFIX,incommon.org
+HOST-SUFFIX,login.gov
+
+# Common auth helper
+HOST-SUFFIX,recaptcha.net
+HOST-SUFFIX,gstatic.com
+HOST,www.google.com
+HOST,accounts.google.com
+
+
+# ============================================================
+# > Microsoft 365 / Outlook / Teams / OneDrive / Entra ID
+# ============================================================
+
+# Core portals
+HOST-SUFFIX,office.com
+HOST-SUFFIX,office365.com
+HOST-SUFFIX,microsoft365.com
+HOST-SUFFIX,live.com
+HOST-SUFFIX,outlook.com
+HOST-SUFFIX,outlook.office.com
+
+# Auth / Entra ID
 HOST-SUFFIX,microsoftonline.com
 HOST-SUFFIX,microsoftonline-p.com
 HOST-SUFFIX,msauth.net
 HOST-SUFFIX,msauthimages.net
 HOST-SUFFIX,msftauth.net
 HOST-SUFFIX,msftauthimages.net
+HOST-SUFFIX,windows.net
+HOST-SUFFIX,login.microsoftonline.com
+HOST-SUFFIX,login.live.com
 
-# ==================== Learning Management Systems ====================
+# Office apps / APIs
+HOST-SUFFIX,office.net
+HOST-SUFFIX,officeapps.live.com
+HOST-SUFFIX,officeppe.net
+HOST-SUFFIX,onenote.com
+HOST-SUFFIX,sharepoint.com
+HOST-SUFFIX,sharepointonline.com
+HOST-SUFFIX,onedrive.com
+HOST-SUFFIX,svc.ms
+HOST-SUFFIX,msocdn.com
+HOST-SUFFIX,msecnd.net
+HOST-SUFFIX,microsoft.com
+HOST-SUFFIX,microsoft.com.edgekey.net
+HOST-SUFFIX,microsoft.com.edgesuite.net
+
+# Teams
+HOST,teams.microsoft.com
+HOST-SUFFIX,teams.microsoft.com
+HOST-SUFFIX,teams.live.com
+HOST-SUFFIX,skype.com
+HOST-SUFFIX,skypeassets.com
+HOST-SUFFIX,lync.com
+
+# Microsoft Graph / Education APIs
+HOST-SUFFIX,graph.microsoft.com
+HOST-SUFFIX,graph.windows.net
+
+# Microsoft security / verification
+HOST-SUFFIX,account.microsoft.com
+HOST-SUFFIX,account.live.com
+HOST-SUFFIX,account.activedirectory.windowsazure.com
+
+# Microsoft Copilot for school accounts
+HOST-SUFFIX,copilot.microsoft.com
+HOST-SUFFIX,copilot.cloud.microsoft
+HOST-SUFFIX,copilotstudio.microsoft.com
+
+
+# ============================================================
+# > Google Workspace for Education / Classroom / Drive / Meet
+# ============================================================
+
+HOST-SUFFIX,google.com
+HOST-SUFFIX,googleapis.com
+HOST-SUFFIX,googleusercontent.com
+HOST-SUFFIX,gstatic.com
+HOST-SUFFIX,googlevideo.com
+HOST-SUFFIX,ggpht.com
+HOST-SUFFIX,withgoogle.com
+
+HOST,classroom.google.com
+HOST,drive.google.com
+HOST,docs.google.com
+HOST,sheets.google.com
+HOST,slides.google.com
+HOST,forms.google.com
+HOST,meet.google.com
+HOST,mail.google.com
+HOST,calendar.google.com
+HOST,accounts.google.com
+HOST,admin.google.com
+
+# Google reCAPTCHA / verification
+HOST,www.recaptcha.net
+HOST,www.gstatic.com
+
+
+# ============================================================
+# > Canvas / Instructure LMS
+# ============================================================
+
 HOST-SUFFIX,instructure.com
 HOST-SUFFIX,canvaslms.com
-HOST-SUFFIX,blackboard.com
-HOST-SUFFIX,turnitin.com
+HOST-SUFFIX,instructuremedia.com
+HOST-SUFFIX,instructure-uploads.s3.amazonaws.com
+HOST-SUFFIX,canvas-user-content.com
+HOST-SUFFIX,canvas-docviewer-iad-prod.inscloudgate.net
+HOST-SUFFIX,inscloudgate.net
 
-# ==================== Online Education Platforms ====================
+HOST,canvas.csun.edu
+HOST,csun.instructure.com
+
+
+# ============================================================
+# > Blackboard / Anthology LMS
+# ============================================================
+
+HOST-SUFFIX,blackboard.com
+HOST-SUFFIX,bbcollab.com
+HOST-SUFFIX,bbcollab.cloud
+HOST-SUFFIX,blackboardcdn.com
+HOST-SUFFIX,anthology.com
+HOST-SUFFIX,anthology-cloud.com
+HOST-SUFFIX,bbhosted.com
+HOST-SUFFIX,bbpd.io
+
+
+# ============================================================
+# > D2L Brightspace / Moodle / Schoology
+# ============================================================
+
+HOST-SUFFIX,d2l.com
+HOST-SUFFIX,brightspace.com
+HOST-SUFFIX,brightspacecdn.com
+HOST-SUFFIX,moodle.org
+HOST-SUFFIX,moodlecloud.com
+HOST-SUFFIX,schoology.com
+HOST-SUFFIX,powerschool.com
+
+
+# ============================================================
+# > Zoom / Video Classroom
+# ============================================================
+
+HOST-SUFFIX,zoom.us
+HOST-SUFFIX,zoom.com
+HOST-SUFFIX,zoomgov.com
+HOST-SUFFIX,zoomcdn.com
+HOST-SUFFIX,zoom-cdn.com
+HOST-SUFFIX,zoomdev.us
+HOST-SUFFIX,zoomapp.cloud
+HOST-SUFFIX,zoomapps.us
+
+HOST,csun.zoom.us
+
+
+# ============================================================
+# > Webex / Google Meet / Microsoft Teams Support
+# ============================================================
+
+HOST-SUFFIX,webex.com
+HOST-SUFFIX,cisco.com
+HOST-SUFFIX,ciscospark.com
+HOST-SUFFIX,wbx2.com
+HOST-SUFFIX,webexcontent.com
+HOST-SUFFIX,slido.com
+
+HOST,meet.google.com
+HOST,teams.microsoft.com
+
+
+# ============================================================
+# > Assignment / Plagiarism / Writing Tools
+# ============================================================
+
+HOST-SUFFIX,turnitin.com
+HOST-SUFFIX,turnitinuk.com
+HOST-SUFFIX,turnitincdn.com
+HOST-SUFFIX,ithenticate.com
+HOST-SUFFIX,writecheck.com
+
+HOST-SUFFIX,grammarly.com
+HOST-SUFFIX,grammarly.io
+HOST-SUFFIX,grammarlyaws.com
+
+HOST-SUFFIX,perusall.com
+HOST-SUFFIX,gradescope.com
+HOST-SUFFIX,piazza.com
+HOST-SUFFIX,campuswire.com
+HOST-SUFFIX,packback.co
+HOST-SUFFIX,peergrade.io
+
+
+# ============================================================
+# > Proctoring / Exam Platforms
+# ============================================================
+
+HOST-SUFFIX,respondus.com
+HOST-SUFFIX,lockdownbrowser.com
+HOST-SUFFIX,monitor.respondus.com
+HOST-SUFFIX,proctorio.com
+HOST-SUFFIX,proctoru.com
+HOST-SUFFIX,meazurelearning.com
+HOST-SUFFIX,examity.com
+HOST-SUFFIX,honorlock.com
+HOST-SUFFIX,pearsonvue.com
+HOST-SUFFIX,ets.org
+HOST-SUFFIX,collegeboard.org
+HOST-SUFFIX,act.org
+
+
+# ============================================================
+# > Online Homework / Courseware / Textbook Platforms
+# ============================================================
+
+# Pearson
+HOST-SUFFIX,pearson.com
+HOST-SUFFIX,pearsoncmg.com
+HOST-SUFFIX,pearsoned.com
+HOST-SUFFIX,pearsonhighered.com
+HOST-SUFFIX,pearsonmylabandmastering.com
+HOST-SUFFIX,mylab.com
+HOST-SUFFIX,mastering.com
+
+# Cengage / WebAssign
+HOST-SUFFIX,cengage.com
+HOST-SUFFIX,cengagebrain.com
+HOST-SUFFIX,webassign.net
+HOST-SUFFIX,mindtap.com
+
+# McGraw Hill
+HOST-SUFFIX,mheducation.com
+HOST-SUFFIX,mcgrawhill.com
+HOST-SUFFIX,connect.mheducation.com
+HOST-SUFFIX,learnsmartadvantage.com
+HOST-SUFFIX,aleks.com
+
+# Wiley / Knewton
+HOST-SUFFIX,wiley.com
+HOST-SUFFIX,wileyplus.com
+HOST-SUFFIX,knewton.com
+
+# Macmillan / Achieve
+HOST-SUFFIX,macmillanlearning.com
+HOST-SUFFIX,achieve.macmillanlearning.com
+HOST-SUFFIX,launchpadworks.com
+
+# Norton
+HOST-SUFFIX,wwnorton.com
+HOST-SUFFIX,norton.com
+
+# Other courseware
+HOST-SUFFIX,zybooks.com
+HOST-SUFFIX,zyante.com
+HOST-SUFFIX,top Hat.com
+HOST-SUFFIX,tophat.com
+HOST-SUFFIX,iclicker.com
+HOST-SUFFIX,reef-education.com
+HOST-SUFFIX,vhlcentral.com
+HOST-SUFFIX,saplinglearning.com
+HOST-SUFFIX,labster.com
+
+
+# ============================================================
+# > Open Educational Resources / MOOC
+# ============================================================
+
 HOST-SUFFIX,coursera.org
+HOST-SUFFIX,coursera.com
 HOST-SUFFIX,edx.org
+HOST-SUFFIX,openedx.org
+HOST-SUFFIX,udacity.com
+HOST-SUFFIX,udemy.com
+HOST-SUFFIX,khanacademy.org
+HOST-SUFFIX,khanacademy.org
+HOST-SUFFIX,khanacademy.org.edgekey.net
+HOST-SUFFIX,ocw.mit.edu
+HOST-SUFFIX,mit.edu
+HOST-SUFFIX,stanford.edu
+HOST-SUFFIX,harvard.edu
+HOST-SUFFIX,yale.edu
+HOST-SUFFIX,berkeley.edu
+HOST-SUFFIX,openstax.org
+HOST-SUFFIX,oercommons.org
+HOST-SUFFIX,merlot.org
+
+
+# ============================================================
+# > Library / Research Databases / Academic Search
+# ============================================================
+
+# Search and discovery
+HOST-SUFFIX,worldcat.org
+HOST-SUFFIX,oclc.org
+HOST-SUFFIX,exlibrisgroup.com
+HOST-SUFFIX,primo.exlibrisgroup.com
+HOST-SUFFIX,alma.exlibrisgroup.com
+HOST-SUFFIX,ebscohost.com
+HOST-SUFFIX,ebsco.com
+HOST-SUFFIX,ebsco-content.com
+HOST-SUFFIX,proquest.com
+HOST-SUFFIX,serialssolutions.com
+
+# Journals and publishers
+HOST-SUFFIX,jstor.org
+HOST-SUFFIX,sciencedirect.com
+HOST-SUFFIX,elsevier.com
+HOST-SUFFIX,springer.com
+HOST-SUFFIX,springernature.com
+HOST-SUFFIX,link.springer.com
+HOST-SUFFIX,tandfonline.com
+HOST-SUFFIX,wiley.com
+HOST-SUFFIX,onlinelibrary.wiley.com
+HOST-SUFFIX,sagepub.com
+HOST-SUFFIX,sagepub.com.edgekey.net
+HOST-SUFFIX,cambridge.org
+HOST-SUFFIX,cambridgecore.org
+HOST-SUFFIX,oup.com
+HOST-SUFFIX,oxfordacademic.com
+HOST-SUFFIX,academic.oup.com
+HOST-SUFFIX,annualreviews.org
+HOST-SUFFIX,frontiersin.org
+HOST-SUFFIX,mdpi.com
+HOST-SUFFIX,nature.com
+HOST-SUFFIX,science.org
+HOST-SUFFIX,sciencemag.org
+HOST-SUFFIX,pnas.org
+HOST-SUFFIX,cell.com
+HOST-SUFFIX,thelancet.com
+HOST-SUFFIX,bmj.com
+HOST-SUFFIX,jamanetwork.com
+
+# Academic indexes
+HOST-SUFFIX,webofscience.com
+HOST-SUFFIX,clarivate.com
+HOST-SUFFIX,scopus.com
+HOST-SUFFIX,ieee.org
+HOST-SUFFIX,ieeexplore.ieee.org
+HOST-SUFFIX,acm.org
+HOST-SUFFIX,dl.acm.org
+HOST-SUFFIX,aps.org
+HOST-SUFFIX,aip.org
+HOST-SUFFIX,iop.org
+HOST-SUFFIX,asm.org
+HOST-SUFFIX,acs.org
+HOST-SUFFIX,acs.org.edgekey.net
+
+# Research identity / citation
+HOST-SUFFIX,orcid.org
+HOST-SUFFIX,crossref.org
+HOST-SUFFIX,doi.org
+HOST-SUFFIX,researchgate.net
+HOST-SUFFIX,academia.edu
+HOST-SUFFIX,semanticscholar.org
+HOST-SUFFIX,scholar.google.com
+HOST-SUFFIX,scholar.googleusercontent.com
+HOST-SUFFIX,arxiv.org
+HOST-SUFFIX,biorxiv.org
+HOST-SUFFIX,medrxiv.org
+HOST-SUFFIX,pubmed.ncbi.nlm.nih.gov
+HOST-SUFFIX,ncbi.nlm.nih.gov
+HOST-SUFFIX,nih.gov
+
+
+# ============================================================
+# > Library Proxy / EZproxy / Discovery Helpers
+# ============================================================
+
+HOST-SUFFIX,oclc.org
+HOST-SUFFIX,ezproxy.com
+HOST-SUFFIX,libguides.com
+HOST-SUFFIX,springshare.com
+HOST-SUFFIX,libraryh3lp.com
+
+# CSUN Library
+HOST,library.csun.edu
+HOST-SUFFIX,libproxy.csun.edu
+HOST-SUFFIX,csun.primo.exlibrisgroup.com
+
+
+# ============================================================
+# > Student Services / Campus Apps
+# ============================================================
+
+HOST-SUFFIX,peopleadmin.com
+HOST-SUFFIX,elluciancloud.com
+HOST-SUFFIX,ellucian.com
+HOST-SUFFIX,banner.com
+HOST-SUFFIX,oraclecloud.com
+HOST-SUFFIX,oracle.com
+HOST-SUFFIX,workday.com
+HOST-SUFFIX,service-now.com
+HOST-SUFFIX,servicenow.com
+HOST-SUFFIX,salesforce.com
+HOST-SUFFIX,force.com
+HOST-SUFFIX,qualtrics.com
+HOST-SUFFIX,qualtrics.com.edgekey.net
+HOST-SUFFIX,box.com
+HOST-SUFFIX,boxcdn.net
+HOST-SUFFIX,dropbox.com
+HOST-SUFFIX,dropboxusercontent.com
+
+
+# ============================================================
+# > Career / Internship / Learning Support
+# ============================================================
+
+HOST-SUFFIX,handshake.com
+HOST-SUFFIX,joinhandshake.com
+HOST-SUFFIX,linkedin.com
+HOST-SUFFIX,linkedinlearning.com
+HOST-SUFFIX,lynda.com
+HOST-SUFFIX,chegg.com
+HOST-SUFFIX,quizlet.com
+HOST-SUFFIX,studocu.com
+HOST-SUFFIX,coursehero.com
+
+
+# ============================================================
+# > Developer / CS Coursework
+# ============================================================
+
+HOST-SUFFIX,github.com
+HOST-SUFFIX,githubusercontent.com
+HOST-SUFFIX,githubassets.com
+HOST-SUFFIX,gitlab.com
+HOST-SUFFIX,bitbucket.org
+HOST-SUFFIX,stackoverflow.com
+HOST-SUFFIX,stackexchange.com
+HOST-SUFFIX,npmjs.com
+HOST-SUFFIX,npmjs.org
+HOST-SUFFIX,python.org
+HOST-SUFFIX,pypi.org
+HOST-SUFFIX,pythonhosted.org
+HOST-SUFFIX,readthedocs.io
+HOST-SUFFIX,anaconda.com
+HOST-SUFFIX,conda.io
+HOST-SUFFIX,docker.com
+HOST-SUFFIX,docker.io
+HOST-SUFFIX,dockerhub.com
+HOST-SUFFIX,registry-1.docker.io
+HOST-SUFFIX,jetbrains.com
+HOST-SUFFIX,visualstudio.com
+HOST-SUFFIX,vscode.dev
+HOST-SUFFIX,code.visualstudio.com
+
+
+# ============================================================
+# > Adobe / Creative Cloud for School
+# ============================================================
+
+HOST-SUFFIX,adobe.com
+HOST-SUFFIX,adobe.io
+HOST-SUFFIX,adobelogin.com
+HOST-SUFFIX,adobecc.com
+HOST-SUFFIX,adobesc.com
+HOST-SUFFIX,adobestats.io
+HOST-SUFFIX,adobejanus.com
+HOST-SUFFIX,behance.net
+HOST-SUFFIX,typekit.net
+
+
+# ============================================================
+# > Common Education Media / Static Assets
+# NOTE: Kept moderate. Avoid adding broad CDN such as cloudfront.net globally.
+# ============================================================
+
+HOST-SUFFIX,kaltura.com
+HOST-SUFFIX,kaltura.org
+HOST-SUFFIX,panopto.com
+HOST-SUFFIX,mediasite.com
+HOST-SUFFIX,yuja.com
+HOST-SUFFIX,voicethread.com
+HOST-SUFFIX,hypothes.is
+HOST-SUFFIX,hypothesis.is
+
+
+# ============================================================
+# > Safe Keywords
+# NOTE: These are relatively education-specific.
+# ============================================================
+
+HOST-KEYWORD,canvas
+HOST-KEYWORD,instructure
+HOST-KEYWORD,blackboard
+HOST-KEYWORD,turnitin
+HOST-KEYWORD,brightspace
+HOST-KEYWORD,webassign
+HOST-KEYWORD,gradescope
+HOST-KEYWORD,respondus
+HOST-KEYWORD,proctorio
+HOST-KEYWORD,proctoru
+HOST-KEYWORD,ezproxy
