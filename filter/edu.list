@@ -1,0 +1,65 @@
+# CSUN / School Email + Microsoft 365 SSO Stable
+# Quantumult X Rule Set
+# 建议绑定到固定美国节点，例如 US-SFO-01 / US-LAX-01
+
+# School domains
+host-suffix,csun.edu
+host-suffix,jjc.edu
+host-suffix,spokane.edu
+host-suffix,liberty.edu
+
+# CSUN SSO
+host-suffix,shibboleth.csun.edu
+
+# Duo MFA
+host-suffix,duosecurity.com
+host-suffix,duofederal.com
+host-suffix,duo.com
+
+# Microsoft login / Entra ID / Azure AD
+host,login.live.com
+host-suffix,login.microsoftonline.com
+host-suffix,microsoftonline.com
+host-suffix,microsoftonline-p.com
+host-suffix,msidentity.com
+host-suffix,msftidentity.com
+host-suffix,windowsazure.com
+host-suffix,windows.net
+
+# Microsoft authentication static resources
+host-suffix,msauth.net
+host-suffix,msauthimages.net
+host-suffix,msftauth.net
+host-suffix,msftauthimages.net
+host-suffix,aadcdn.msftauth.net
+host-suffix,aadcdn.msauth.net
+
+# Microsoft 365 / Office / Outlook
+host-suffix,office.com
+host-suffix,office.net
+host-suffix,office365.com
+host-suffix,microsoft365.com
+host-suffix,outlook.com
+host-suffix,outlook.office.com
+host-suffix,outlook.office365.com
+host-suffix,substrate.office.com
+
+# Microsoft API / account services
+host-suffix,graph.microsoft.com
+host-suffix,microsoft.com
+host-suffix,live.com
+host-suffix,aadrm.com
+
+# Teams, if school account also uses Teams
+host-suffix,teams.microsoft.com
+host-suffix,teams.live.com
+host-suffix,skype.com
+host-suffix,lync.com
+
+# Learning platforms
+host-suffix,instructure.com
+host-suffix,canvaslms.com
+host-suffix,blackboard.com
+host-suffix,turnitin.com
+host-suffix,coursera.org
+host-suffix,edx.org
